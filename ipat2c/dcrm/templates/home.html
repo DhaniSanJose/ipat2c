@@ -1,1 +1,35 @@
-<h1>HELLO IPAT2C</h1>
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+<style>
+.custom-btn {
+    background-color: fuchsia; /* Blue */
+    border-color: pink; /* Blue */
+    color: #ffffff; /* White */
+}
+
+.custom-btn:hover {
+    background-color: yellow; /* Darker blue on hover */
+    border-color: yellowgreen; /* Darker blue on hover */
+    color: #ffffff; /* White on hover */
+}
+
+
+</style>
+
+
+
+<h1>HELLO IPAT2C</h1> <br>
+<br>
+<button type="button" class="btn custom-btn ">Primary</button>
+<br>
+<br>
+<button class="btn btn-success btn-md">BUTTON</button>
+<br>
+<br>
+<button class="btn btn-success btn-lg">BUTTON</button>
+{% endblock %}
+
+
